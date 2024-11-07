@@ -1,4 +1,4 @@
-# Kusama's Corner Pumpkin Light
+# Kusama's Corner Pumpkin Light 🟨⚫
 Create RGB Kusama pumpkin lamp powered with an ESP32 with menu toggling function built in. This is proof of concept for subsequent project involving making this smart home comptaible either using espressif or homespan via ESP32. 
 <div style="display: flex;">
     <img src="media/color_change_mode.gif" alt="lamp in color changing mode" width="300" style="margin-right: 10px;" />
@@ -8,10 +8,10 @@ Create RGB Kusama pumpkin lamp powered with an ESP32 with menu toggling function
 ## Instructions to toggle between lighting settings
 <img src="media/menu_example.gif"  alt="lamp-in-breathing-mode" width="300"/> 
 - Menu consists of 3 modes: static, breathing, and color change
-- Static allows static color of: Green, Blue, Red, Orange
-- Breathing soft modulates color of white
-- Color change soft modualtes between colors across the RGB spectrum
-- Current code toggles through different options via joystick y axis and option selection is enabled via joystick button (or optionally independent button)
+	- Static allows static color of: Green, Blue, Red, Orange
+	- Breathing soft modulates color of white
+	- Color change soft modualtes between colors across the RGB spectrum
+- To select mode or colors, click the button
 
 # Hardware
 ## Links to the STL print files
@@ -29,7 +29,7 @@ Create RGB Kusama pumpkin lamp powered with an ESP32 with menu toggling function
 - 450ohm resistor for neopixel
 - Breadboard
 - Male-to-male header cables
-- Button (optional)
+- Button
 - Potentiometer (optional)
 
 ## Circuit diagram

@@ -75,7 +75,7 @@ void loop() {
   // Serial.println(digitalRead(BUTTON_PIN));
 
   // Read joystick button
-  int buttonState = digitalRead(swPin);
+  int buttonState = digitalRead(BUTTON_PIN);
 
   // Handle button press to toggle menu
   static int lastButtonState = HIGH;
@@ -156,7 +156,7 @@ void handleMenu() {
   }
 
   // Handle selection
-  int buttonState = digitalRead(swPin);
+  int buttonState = digitalRead(BUTTON_PIN);
   static int lastButtonState = HIGH;
   if (buttonState != lastButtonState) {
     if (buttonState == LOW) {
