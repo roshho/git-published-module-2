@@ -14,7 +14,7 @@ Create RGB Kusama pumpkin lamp powered with an ESP32 with menu toggling function
 	- Color change soft modualtes between colors across the RGB spectrum
 - To select mode or colors, click the button
 
-## Hardware
+## ⚙️ Hardware
 ### Links to the STL print files
 - The following thingiverse contains 3 STL files. You can choose to print the hollowed pumpkin or shelled pumpkin as the shell for the lamp.
 	- Shelled pumpkin would require a lot of support, however is effective to accomodate for walls with inconsistent corners.
@@ -22,7 +22,7 @@ Create RGB Kusama pumpkin lamp powered with an ESP32 with menu toggling function
 - The joystick pumpkin is an optional print and is a custom fit print with a complete Yayoi Kusama pumpkin as a joystick cap.
 [https://www.thingiverse.com/thing:6820721](https://www.thingiverse.com/thing:6820721)
 
-### Hardwares involves
+### Hardwares involved
 - Neopixel hw160 or any rgb strip (but may require different transistors)
 - ESP32 (using Lilygo ESP32 TTGO in this case)
 - Joystick
@@ -35,9 +35,9 @@ Create RGB Kusama pumpkin lamp powered with an ESP32 with menu toggling function
 
 ### Circuit diagram
 - Referring to the ``rgb_led_circuit.fzz`` or the following screenshot, route the hardware as shown above.
-<img src="media/rgb_led_circuit.png" alt="circuit" width="300" />
+<img src="media/rgb_led_circuit.png" alt="circuit" width="1000" />
 
-## Software
+## 🖥️ Software
 ### Instructions to run arduino code
 1) Using the [Arduino IDE](https://www.arduino.cc/en/software), open the respective ``.ino`` file
 2) Install [TTGO T-display driver](https://github.com/Xinyuan-LilyGO/TTGO-T-Display)
