@@ -6,14 +6,6 @@ Create RGB Kusama pumpkin lamp powered with an ESP32 with menu toggling function
     <img src="media/breathing_mode.gif" alt="menu" width="300"/>
 </div>
 
-### Instructions to toggle between lighting settings
-<img src="media/menu_example.gif"  alt="lamp-in-breathing-mode" width="300"/> 
-- Menu consists of 3 modes: static, breathing, and color change
-	- Static allows static color of: Green, Blue, Red, Orange
-	- Breathing soft modulates color of white
-	- Color change soft modualtes between colors across the RGB spectrum
-- To select mode or colors, click the button
-
 ## ⚙️ Hardware
 ### Links to the STL print files
 - The following thingiverse contains 3 STL files. You can choose to print the hollowed pumpkin or shelled pumpkin as the shell for the lamp.
@@ -38,6 +30,14 @@ Create RGB Kusama pumpkin lamp powered with an ESP32 with menu toggling function
 <img src="media/rgb_led_circuit.png" alt="circuit" width="1000" />
 
 ## 🖥️ Software
+### Instructions to toggle between lighting settings
+<img src="media/menu_example.gif"  alt="lamp-in-breathing-mode" width="300"/> 
+- Menu consists of 3 modes: static, breathing, and color change
+	- Static allows static color of: Green, Blue, Red, Orange
+	- Breathing soft modulates color of white
+	- Color change soft modualtes between colors across the RGB spectrum
+- To select mode or colors, click the button
+
 ### Instructions to run arduino code
 1) Using the [Arduino IDE](https://www.arduino.cc/en/software), open the respective ``.ino`` file
 2) Install [TTGO T-display driver](https://github.com/Xinyuan-LilyGO/TTGO-T-Display)
